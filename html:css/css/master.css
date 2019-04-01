@@ -1,0 +1,180 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #efefef;
+  font-size: 0.9rem;
+}
+
+/* Headings */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
+}
+
+.subscribe h2, .railapp h2 {
+
+  color: #f2e7c9;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.22rem;
+}
+
+h5.card-title {
+  font-size: 1.1rem;
+}
+
+.section-headers {
+  margin-bottom: 60px;
+  text-transform: capitalize;
+}
+
+
+nav a {
+  font-size: 1.3rem !important;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+}
+
+
+section.banner {
+  min-height: auto;
+  background-image: url(../img/train.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+section .form-container {
+  margin-top: 60px;
+  height: auto;
+  flex: 1 1 33.35%;
+}
+
+.buy-tickets {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.tab-content>.tab-pane {
+  background: #fff;
+}
+
+.railcardshow {
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+}
+
+.hideinput {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.railapp {
+  background-image: url(../img/app-background.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.railapp .col-6 {
+  margin-top: 12%;
+}
+
+.subscribe {
+  padding: 100px 0;
+  background-color: #54426b;
+}
+
+.featured {
+  margin: 100px 0;
+}
+
+.travel-offers {
+  margin-top: 130px;
+}
+
+.promo, .promo-2, .promo-3 {
+  cursor: pointer;
+  border: 2px solid #3c4043;
+}
+
+.promo-2 {
+  height: 210px;
+  background-image: url(../img/train-ticket.jpg);
+  background-size: cover;
+  margin-left: 5px;
+}
+
+.promo-3 {
+  height: 210px;
+  background-image: url(../img/ticket-compensation.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.firstclass {
+  position: relative;
+  height: 425px;
+  background-image: url(../img/first-class.jpg);
+  background-size: cover;
+}
+
+.text-banner {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  background: white;
+  opacity: 0.7;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+footer a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+footer a:hover {
+  color: #a9a9a9;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .featured-destinations .card {
+    margin-bottom: 30px
+  }
+
+  .featured-destinations .section-headers {
+    margin-top: 30px
+  }
+
+  .railapp {
+    padding-top: 150px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .banner {
+    margin-bottom: 50px;
+  }
+
+  .railapp {
+    padding-top: 150px;
+  }
+}
